@@ -50,6 +50,23 @@ p {
   font-family: elevon , sans-serif;
 }
 
+.lg-view {
+  display: inline-block;
+}
+.sm-view {
+  display: none;
+}
+
+/* responsive */
+@media(max-width:480px) {
+   .lg-view {
+     display: none;
+   }
+   .sm-view {
+     display: inline-block;
+   }
+  
+}
 
 
 
