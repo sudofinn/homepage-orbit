@@ -40,7 +40,19 @@ h1 {
   font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-decoration: underline; 
+  
 }
+
+
+a {
+  color:#fff;
+}
+a:hover {
+   color:#8cc5da;
+}
+
+
 
 p {
   font-size:1.4rem;
@@ -49,6 +61,12 @@ p {
   margin-top:-40px;
   font-family: elevon , sans-serif;
 }
+p:hover {
+  color:#d883d7;
+}
+
+
+
 
 .lg-view {
   display: inline-block;
